@@ -1,0 +1,563 @@
+/*
+  Theme: LiveCallz With Responsive HTML Template
+  Author: Author Name
+  Live URl:https://github.com/Opurbo2002/
+  Primary Color: #08dd83, 
+  Secondary Color: #2092fc
+
+  Font Style
+  Title: Roboto
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Global CSS */
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+
+
+/* Top Header Section Start */
+
+.top-header{
+  padding: 15px 0;
+}
+.contact-number{
+  display: flex;
+}
+.contact-number h4{
+
+font-size: 14px;
+
+margin: 4px 0px;
+}
+.contact-number .fa-solid{
+
+font-size: 14px;
+
+width: 25px;
+
+height: 25px;
+
+border-radius: 100%;
+
+text-align: center;
+
+line-height: 25px;
+
+color: #fff;
+
+background-color: #2092fc;
+
+margin-right: 15px;
+}
+.contact-email{
+  display: flex;
+}
+.contact-email h4{
+  font-size: 14px;
+  margin: 4px 0px;
+}
+.contact-email .fa-solid{
+  font-size: 14px;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 25px;
+  color: #fff;
+  background-color: #2092fc;
+  margin-right: 15px;
+}
+.social-info{
+  display: flex;
+}
+.social-info h4{
+  font-size: 14px;
+  margin-right: 15px;
+}
+.social-icons ul li{
+  list-style: none;
+  display: inline;
+}
+.social-icons .fb{
+
+font-size: 22px;
+
+color: #4267b2;
+}
+.social-icons .in{
+
+font-size: 22px;
+
+color: #0077b7;
+}
+.social-icons .tr{
+
+font-size: 22px;
+
+color: #50abf1;
+}
+.social-icons .im{
+  
+font-size: 22px;
+  
+color: #E4405F;
+}
+
+.dsk-hide{
+  display: none;
+}
+/*Top Header Section End*/
+
+
+
+/*Header Section Start*/
+
+header{
+  background-color: #003060;
+}
+.logo img{
+  width: 90%;
+  margin-left: -10px;
+}
+.nav-item{
+  padding: 0 20px;
+}
+.nav-link{
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #fff;
+  padding: 0;
+}
+.nav-link:hover{
+  color: #fff;
+}
+.nav-link:focus{
+  color: #fff;
+}
+.schedule-btn{
+  font-size: 15px;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 12px 20px;
+  background-image: linear-gradient(19deg, #08dd83, #2092fc);
+  transition: all 2s ease-in-out;
+}
+.schedule-btn:hover{
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 12px 20px;
+  background-image: linear-gradient(206deg, #08dd83, #2092fc);
+  transition: all 2s ease-in-out;
+}
+
+/*Header Section End*/
+
+
+/*Banner Section Start*/
+
+.hero-section{
+  background-image: url(../img/banner.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: initial;
+  position: relative;
+}
+.height{
+  min-height: 60vh;
+}
+.hero-section h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.hero-section p{
+  font-size: 18px;
+  font-weight: 300;
+  color: #dfe2e4;
+}
+.headline{
+  margin-bottom: 20px;
+}
+.schedule1{
+  margin-top: 30px;
+}
+
+/*Banner Section End*/
+
+
+
+/*Pricing Section Start*/
+.pricing-section {
+    position: relative;
+    /* border-bottom: 1px solid #efefef; */
+    padding: 5% 0;
+}
+.price-row {
+    position: absolute;
+    width: 50%;
+    top: -50%;
+    left: 45%;
+    transform: translateX(-50%);
+}
+.pricing-section .price-table{
+  background-color: #fff;
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+  width: 100%;
+  height: 110%;
+  margin: 0 60px;
+  transition: all 0.5s ease-in-out;
+}
+.pricing-section .price-table h4{
+  text-align: center;
+  font-size: 26px;
+  font-weight: 400;
+  padding: 10px 0;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.pricing-section .price h2{
+
+font-size: 70px;
+
+margin: 20px auto;
+
+color: #023f7c;
+}
+.pricing-section .price sup{
+
+font-size: 35px;
+
+font-weight: 400;
+}
+.pricing-section .price sub{
+
+font-size: 18px;
+}
+.pricing-section .price p{
+
+font-size: 20px;
+
+margin: 20px auto;
+
+color: #cfcfcf;
+}
+.pricing-section .subscription{
+
+margin-bottom: -14px;
+}
+.pricing-section .features{
+
+padding: 0 0 25px;
+}
+.pricing-section .features p{
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: -25px;
+}
+.pricing-section .features .fa-solid{
+  font-size: 16px;
+  padding-right: 20px;
+}
+.pricing-section .more{
+
+font-size: 15px;
+
+font-weight: 500;
+
+text-decoration: underline;
+
+color: #023f7c;
+}
+.order ul{
+  list-style: none;
+}
+.order .schedule-btn{
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 6px 40px;
+  margin: 30px 0 0px;
+  background-image: linear-gradient(19deg, #08dd83, #2092fc);
+  transition: all 2s ease-in-out;
+}
+.order .schedule-btn:hover{
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 6px 40px;
+  background-image: linear-gradient(206deg, #08dd83, #2092fc);
+  transition: all 2s ease-in-out;
+}
+/*Pricing Section End*/
+
+
+/*About Section Start*/
+
+.about-section{
+  padding: 410px 0 70px;
+  border-bottom: 1px solid #efefef;
+}
+.about-headline h3{
+
+font-size: 40px;
+
+font-weight: 600;
+}
+.about-paragraph{
+  padding: 20px 0;
+}
+.about-paragraph p{
+  font-size: 17px;
+  margin-left: -20px;
+}
+.about-btn{
+  margin-top: 25px;
+}
+.about-btn .schedule-btn{
+  
+font-size: 15px;
+  
+color: #fff;
+  
+border: 1px solid transparent;
+  
+border-radius: 5px;
+  
+padding: 10px 30px;
+  
+background-image: linear-gradient(19deg, #08dd83, #2092fc);
+  
+transition: all 2s ease-in-out;
+}
+.about-btn .schedule-btn:hover{
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 10px 30px;
+  background-image: linear-gradient(206deg, #08dd83, #2092fc);
+  transition: all 2s ease-in-out;
+}
+
+/*About Section End*/
+
+.clients-section{
+  padding: 50px 0;
+}
+.client-detalis p{
+
+font-size: 14px;
+
+font-weight: 400;
+
+color: #c2c2c2;
+}
+.client-detalis h4{
+
+font-size: 16px;
+}
+.client-feedback{
+  position: relative;
+}
+.img-position{
+  position: absolute;
+  left: 0px;
+  bottom: 82%;
+  z-index: -1;
+}
+.client-feedback p{
+  
+font-size: 16px;
+}
+
+
+
+
+.dealing-section{
+  background-color: #003060;
+  padding: 70px 0;
+
+}
+.dealing-headline h3{
+
+font-size: 40px;
+
+font-weight: 600;
+color: #fff;
+}
+.dealing-paragraph{
+  padding: 20px 0;
+}
+.dealing-paragraph p{
+  font-size: 17px;
+  margin-left: -20px;
+  color: #fff;
+}
+.dealing-btn{
+  margin-top: 25px;
+}
+.dealing-btn .schedule-btn{
+  
+font-size: 15px;
+  
+color: #fff;
+  
+border: 1px solid transparent;
+  
+border-radius: 5px;
+  
+padding: 10px 30px;
+  
+background-image: linear-gradient(19deg, #08dd83, #2092fc);
+  
+transition: all 2s ease-in-out;
+}
+.dealing-btn .schedule-btn:hover{
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 10px 30px;
+  background-image: linear-gradient(206deg, #08dd83, #2092fc);
+  transition: all 2s ease-in-out;
+}
+
+/* Contact Section */
+.contact-section{
+  position: relative;
+  padding: 4% 0;
+}
+.contact-form{
+  margin-right: 50px;
+}
+.contact-form p{
+  font-size: 17px;
+  color: #aeaeae;
+}
+.contact-form h2{
+    margin: 5px 0 15px;
+}
+.form-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.form-box .input-box{
+  width: 49.2%;
+}
+.form-box .message-box{
+  width: 100%;
+}
+.form-box .form-control, footer form .form-control{
+  border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    margin-bottom: 12px;
+  padding: 12px 20px;
+}
+.form-box .form-control:focus, footer form .form-control:focus{
+  border: 1px solid #e1e1e1;
+  outline: none;
+  box-shadow: none;
+}
+.form-box input::placeholder, .form-box textarea::placeholder, footer form input::placeholder{
+  font-size: 15px;
+  color: #aeaeae !important;
+}
+.form-box input.schedule{
+  border: none;
+    padding: 9px 35px;
+}
+.google-map{
+  position: absolute;
+  width: 50%;
+  height: 110%;
+  top: 0;
+  right: 0;
+}
+.google-map iframe{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+/* Footer Section */
+footer{
+  background: #f9fcff;
+  padding: 6% 0 4%;
+}
+footer h2{
+  margin-bottom: 45px;
+  text-align: center;
+  font-size: 45px;
+}
+footer form{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+footer form .form-control{
+  width: 40%;
+}
+footer form input.schedule-btn{
+  padding: 0;
+  width: 17%;
+}
+footer .navbar-nav{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+footer .navbar-nav .nav-link{
+  display: flex;
+  flex-direction: row;
+  border-radius: 3px;
+  padding: 9px 20px;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+  transition: all .4s ease-in-out;
+}
+footer .navbar-nav .call-btn{
+  border: 1px solid #000;
+}
+footer .navbar-nav .call-btn:hover{
+  border: 1px solid #15b4c5;
+}
+footer .navbar-nav .nav-link:hover{
+  color: #08dd83;
+}
+footer p{
+  margin-top: 15px;
+  text-align: right;
+  font-size: 15px;
+  font-weight: 500;
+  word-spacing: 3px;
+  color: #999999;
+}
+footer p a{
+  color: #212529;
+  transition: all .4s ease-in-out;
+}
+footer p a:hover{
+  color: #08dd83;
+}
